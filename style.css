@@ -1,0 +1,46 @@
+@keyframes slideIn {
+    0% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  body {
+    background-image: url('https://cdn.pixabay.com/photo/2021/05/30/19/52/abstract-rainbow-6296890_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  section {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  h2 {
+    margin: 0;
+  }
+  
+  .animated-info {
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
